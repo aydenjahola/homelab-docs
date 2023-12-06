@@ -1,4 +1,4 @@
-# Welcome to my Homelab Documentation
+# Homelab documentation
 
 This is a collection of documentation for my homelab. It is built using [MkDocs](https://www.mkdocs.org/).
 
