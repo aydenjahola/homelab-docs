@@ -9,6 +9,7 @@ This is a collection of documentation for my homelab. It is built using [MkDocs]
 - [Python](https://www.python.org/) >= 3.5
 - [MkDocs](https://www.mkdocs.org/) >= 1.0.4
 - [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) >= 4.6.3
+- [Github Pages](https://pages.github.com/) >= 3.0.0
 
 ### Installation
 
