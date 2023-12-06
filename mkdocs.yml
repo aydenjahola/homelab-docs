@@ -1,19 +1,43 @@
 site_name: Ayden's Homelab Docs
+site_description: A collection of documentation for my homelab
+site_author: Ayden Jahola
+site_url: https://docs.aydenjahola.com
+repo_url: https://github.com/aydenjahola/homelab-docs
+repo_name: homelab-docs
+use_directory_urls: true
+edit_uri: edit/main/docs/
 theme:
   name: material
+  logo: images/logo.png
+  favicon: images/logo.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
   palette: 
-
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/brightness-7 
-
-
-        name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-4 
+
+
         name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date-localized:
+      type: timeago
+
+
   

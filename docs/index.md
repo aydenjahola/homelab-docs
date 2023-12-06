@@ -1,32 +1,28 @@
 # Homelab documentation
 
-This is a collection of documentation for my homelab. It is built using [MkDocs](https://www.mkdocs.org/).
+This is a collection of documentation for my homelab. It is a work in progress.
 
-## Getting started
+## Table of Contents
 
-### Prerequisites
-
-- [Python](https://www.python.org/) >= 3.5
-- [MkDocs](https://www.mkdocs.org/) >= 1.0.4
-- [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) >= 4.6.3
-- [Github Pages](https://pages.github.com/) >= 3.0.0
-
-### Installation
-
-```bash
-pip install mkdocs
-pip install mkdocs-material
-```
-
-### Usage
-
-```bash
-mkdocs serve
-```
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [Homelab documentation](#homelab-documentation)
+  - [Table of Contents](#table-of-contents)
+  - [Hardware](#hardware)
+    - [Servers](#servers)
+    - [Networking](#networking)
+    - [Storage](#storage)
+    - [Other](#other)
+  - [Software](#software)
+    - [Operating Systems](#operating-systems)
+    - [Virtualization](#virtualization)
+    - [Containers](#containers)
+    - [Monitoring](#monitoring)
+    - [Networking](#networking-1)
+    - [Storage](#storage-1)
+    - [Other](#other-1)
+  - [Services](#services)
+    - [Self-hosted](#self-hosted)
+    - [Third-party](#third-party)
+  - [Network](#network)
+  - [Security](#security)
+  - [Miscellaneous](#miscellaneous)
+  - [References](#references)
