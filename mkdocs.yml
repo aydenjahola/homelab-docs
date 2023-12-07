@@ -49,3 +49,18 @@ extra:
     #: If using custom domain proxy or self-hosting Plausible,
     #: uncomment and specify script path here:
     src: "https://plausible.aydenjahola.com/js/plausible.js"
+
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: good
+          note: >-
+            Thanks for your feedback!
+
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: bad
+          note: >-
+            Thanks for your feedback! Please open an issue on GitHub if you have a suggestion.
