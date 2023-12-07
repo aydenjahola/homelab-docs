@@ -38,6 +38,14 @@ plugins:
   - awesome-pages
   - git-revision-date-localized:
       type: timeago
+  - material-plausible
 
 
-  
+extra:
+  analytics:
+    provider: plausible
+    domain: docs.aydenjahola.com
+
+    #: If using custom domain proxy or self-hosting Plausible,
+    #: uncomment and specify script path here:
+    src: "https://plausible.aydenjahola.com/js/plausible.js"
